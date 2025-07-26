@@ -639,7 +639,7 @@
             
             <div class="output-box" id="output-text"></div>
             
-            <button class="copy-btn" onclick="copyToClipboard()">📋 Copy for C7 Analysis</button>
+            <button class="copy-btn" onclick="copyToClipboard()">📋 Copy for C12 Analysis</button>
             <button class="btn-secondary btn" onclick="startEvening()">Evening Review Later</button>
             <button class="btn" onclick="restart()">New Day ▶</button>
         </div>
@@ -826,7 +826,7 @@ Lowest Area: ${lowest[0]} (${lowest[1]}/5)
 TODAY'S FOCUS:
 ${appData.tasks}
 
---- Ready for C7 Analysis ---`;
+--- Ready for C12 Analysis ---`;
 
             document.getElementById('output-text').textContent = output;
             showScreen('output-screen');
@@ -999,7 +999,7 @@ Energy Change: ${appData.energyChange || 'Not specified'}
 INSIGHTS:
 ${insights}
 
---- Complete Day Data for C7 ---`;
+--- Complete Day Data for C12 ---`;
 
             document.getElementById('output-text').textContent = eveningOutput;
             showScreen('output-screen');
